@@ -1,0 +1,156 @@
+/*******************/
+/* BELOW 1270px (smaller desktops) */
+/*******************/
+@media (max-width: 79.375em) {
+  .feat-list {
+    margin-right: 18rem;
+  }
+
+  .feat-img img {
+    width: 100%;
+  }
+
+  .tablet-img img {
+    width: 90%;
+  }
+
+  .workflow-list {
+    margin: 0 12rem 15rem 12rem;
+  }
+}
+
+/*******************/
+/* BELOW 944px (Tablets) */
+/*******************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .headings {
+    margin: 0 4rem 6rem 4rem;
+  }
+
+  .features {
+    display: grid;
+    margin-bottom: 6.4rem;
+  }
+
+  .feat-img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .feat-list {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 2rem;
+    align-items: flex-start;
+    grid-column: auto;
+    text-align: center;
+  }
+
+  .tablet-img img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .logos {
+    gap: 2rem;
+    margin: 0 4rem 12rem 4rem;
+  }
+
+  .footer {
+    padding: 3.5rem 4rem;
+  }
+
+  .workflow-list {
+    margin: 0 4rem 12rem 4rem;
+    gap: 2rem;
+  }
+
+  .workflow-item {
+    text-align: center;
+  }
+}
+/*******************/
+/* BELOW 544px (Phones) */
+/*******************/
+@media (max-width: 34em) {
+  .hero {
+    background-image: url(/images/bg-header-mobile.png);
+  }
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 80%;
+  }
+
+  .hero-wrapper {
+    margin-bottom: 12rem;
+  }
+
+  .feat-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  .feat-item {
+    gap: 1rem;
+  }
+
+  .workflow-list {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .workflow-item {
+    gap: 1rem;
+  }
+
+  .workflow-item img {
+    margin-bottom: 2rem;
+  }
+
+  .workflow-item h1 {
+    margin-bottom: 0;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .logos img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 4rem;
+  }
+
+  .footer-nav {
+    align-items: center;
+  }
+
+  .social-col {
+    margin-bottom: 4rem;
+  }
+}
